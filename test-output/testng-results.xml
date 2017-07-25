@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login" duration-ms="9356" started-at="2017-07-25T11:36:08Z" finished-at="2017-07-25T11:36:18Z">
+    <groups>
+    </groups>
+    <test name="Regression 1" duration-ms="9356" started-at="2017-07-25T11:36:08Z" finished-at="2017-07-25T11:36:18Z">
+      <class name="com.nk.tests.Hrms_Login">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nk.tests.Hrms_Login@2b42b123]" name="setup" is-config="true" duration-ms="4627" started-at="2017-07-25T17:06:09Z" finished-at="2017-07-25T17:06:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidLogin()[pri:0, instance:com.nk.tests.Hrms_Login@2b42b123]" name="ValidLogin" duration-ms="2501" started-at="2017-07-25T17:06:13Z" finished-at="2017-07-25T17:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nk.tests.Hrms_Login@2b42b123]" name="tearDown" is-config="true" duration-ms="2207" started-at="2017-07-25T17:06:16Z" finished-at="2017-07-25T17:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nk.tests.Hrms_Login -->
+    </test> <!-- Regression 1 -->
+  </suite> <!-- Login -->
+</testng-results>
