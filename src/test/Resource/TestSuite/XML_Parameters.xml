@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Suites">
+
+
+ <parameter name="sUsername" value="1701752"/>
+   <parameter name="sPassword" value="Manage1@"/>
+   <test name="Parameter based login">
+    <classes>
+    <class name="com.nk.tests.Hrms_Parameter_Login"/>
+  
+    </classes>
+  </test>
+  
+  
+</suite>
