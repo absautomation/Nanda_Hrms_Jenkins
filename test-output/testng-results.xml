@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
@@ -22,4 +23,57 @@
       </class> <!-- com.nk.tests.Hrms_Login -->
     </test> <!-- Regression 1 -->
   </suite> <!-- Login -->
+=======
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Suites" duration-ms="8903" started-at="2017-07-19T12:25:55Z" finished-at="2017-07-19T12:26:03Z">
+    <groups>
+    </groups>
+    <test name="Data provider based login" duration-ms="8903" started-at="2017-07-19T12:25:55Z" finished-at="2017-07-19T12:26:03Z">
+      <class name="com.nk.tests.Hrms_DataProvider_Login">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nk.tests.Hrms_DataProvider_Login@1b3d1929]" name="setup" is-config="true" duration-ms="4141" started-at="2017-07-19T17:55:55Z" finished-at="2017-07-19T17:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logindata(java.lang.String, java.lang.String)[pri:0, instance:com.nk.tests.Hrms_DataProvider_Login@1b3d1929]" name="logindata" duration-ms="1511" started-at="2017-07-19T17:55:59Z" data-provider="logincredential" finished-at="2017-07-19T17:56:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1309288]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sep@2013]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindata -->
+        <test-method status="PASS" signature="logindata(java.lang.String, java.lang.String)[pri:0, instance:com.nk.tests.Hrms_DataProvider_Login@1b3d1929]" name="logindata" duration-ms="1203" started-at="2017-07-19T17:56:00Z" data-provider="logincredential" finished-at="2017-07-19T17:56:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1703769]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mj777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindata -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nk.tests.Hrms_DataProvider_Login@1b3d1929]" name="tearDown" is-config="true" duration-ms="2027" started-at="2017-07-19T17:56:01Z" finished-at="2017-07-19T17:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nk.tests.Hrms_DataProvider_Login -->
+    </test> <!-- Data provider based login -->
+  </suite> <!-- All Suites -->
+>>>>>>> 98c8700a3bb89dc1d7d69e45279d216ec561a12d
 </testng-results>
