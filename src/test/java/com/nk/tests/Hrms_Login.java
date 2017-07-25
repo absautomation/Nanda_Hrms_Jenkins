@@ -11,14 +11,14 @@ public class Hrms_Login extends BaseTestObject {
 	
 	LoginPage objloginpage;
 	HomePage objhomepage;
-<<<<<<< HEAD
+
 /* 
  * Commit
  * 	
  */
-=======
+
 	
->>>>>>> 98c8700a3bb89dc1d7d69e45279d216ec561a12d
+
 	@Test(priority=1)
 	public void ValidLogin() throws Exception
 	{
